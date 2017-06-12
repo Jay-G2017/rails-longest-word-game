@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get '/', to: 'word_game#home'
+  root 'word_game#home'
 
   get 'game', to: 'word_game#game'
 

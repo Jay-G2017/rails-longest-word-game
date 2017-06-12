@@ -1,5 +1,5 @@
-require 'open-uri'
-require 'json'
+# require 'open-uri'
+# require 'json'
 
 class WordGameController < ApplicationController
 
