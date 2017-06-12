@@ -1,0 +1,18 @@
+<h3>Here's your score:</h3>
+
+<p><%="Your word: #{@attempt}" %></p>
+<p><%="Your grid: #{@grid}" %></p>
+<p><%="Time Taken to Answer: #{@result[:time].round} s" %></p>
+<p><%="Translation: #{@result[:translation]}" %></p>
+<p><%="Your score: #{@result[:score]}" %></p>
+<p><%="Message: #{@result[:message]}" %></p>
+
+
+
+<%= link_to "Play again", 'game' %>
+
+
+
+
+
+

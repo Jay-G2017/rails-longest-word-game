@@ -1,0 +1,18 @@
+
+
+<form action="/game" method="get">
+  <input type="text" name="num" placeholder="type your difficuty" >
+  <input type="submit">
+</form>
+
+
+<h3>Here's your grid:</h3>
+<p><%= @grid.join(" ") %></p>
+
+
+<form action="/score" method="get">
+  <input type="text" name="result" placeholder="type your guess" >
+  <input type="text" name= "grid" value="<%= @grid %>">
+  <input type="text" name="start_time" value="<%= Time.now %>">
+  <input type="submit">
+</form>
